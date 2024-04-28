@@ -123,8 +123,9 @@ if DRIVES_TOTAL < 4 and RAID_PENALTY in [6,10]:
    sys.exit(1)   
 
 # CHECK R/W RATIO
-if ((RPC+WPC) > 100) or ((RPC+WPC) < 0):
+if (RPC+WPC) != 100:
    print("ERROR - READ / WRITE RATIO INVALID")
+   print(str(RPC)+" "+str(WPC)+" != 100")
    sys.exit(1)
 
 # CHECK RAID 10 DIVISIBLE BY 2
