@@ -37,7 +37,7 @@ Reads from disk have no penalty, Writes to disk incur penalty due to raid parity
 '''
 
 # 1 is no penalty
-RAID_PENALTY_DICT={"RAID-1": 1, #JBOD MODE no penalty, here called fictional RAID-1
+RAID_PENALTY_DICT={"RAID-1": 1, #JBOD MODE no penalty, here called RAID-1 to enable lookup
                    "RAID0": 1, 
                    "RAID1": 2, 
                    "RAID5": 4, 
