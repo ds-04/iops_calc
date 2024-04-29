@@ -7,3 +7,7 @@ IOPs calculator python3
 THIS README IS A TODO...
 
 For now use ```-h``` or ```--help``` for help... and examine script.
+
+
+
+<br>TODO: Fix RAID capacity</b>
